@@ -1,0 +1,38 @@
+{
+	"name": "crackerjackdigital/silverstripe-quaff-guzzle",
+	"type": "silverstripe-module",
+	"description": "Guzzle Transport Module for Quaff",
+	"homepage": "http://github.com/crackerjackdigital",
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"silverstripe",
+		"api"
+	],
+	"authors": [
+		{
+			"name": "Stephen Wake",
+			"homepage": "http://github.com/crackerjackdigital"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "*",
+		"silverstripe/framework": ">=3.1",
+		"guzzlehttp/guzzle": "6.2.x",
+		"crackerjackdigital/silverstripe-modular": "*",
+		"crackerjackdigital/silverstripe-quaff": "*"
+	},
+	"extra": {
+		"installer-name": "quaff-guzzle"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/crackerjackdigital/silverstripe-modular"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/crackerjackdigital/silverstripe-quaff"
+		}
+	]
+}
